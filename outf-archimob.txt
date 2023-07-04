@@ -1,0 +1,233 @@
+file,sentence nr, sentence
+archimob\archimob_1007.xml,73,und min maa han ich e gleert kenne daa im bi de schriinerii z roz het er sibeze jaar gschaffet
+archimob\archimob_1007.xml,381,het er amig gsait i gots name und mir hend na wääred em chrieg afaa gschäfte
+archimob\archimob_1007.xml,480,mììr hend ez aagfange gschäfte und de hesch ez scho allerlai du tuesch immer
+archimob\archimob_1007.xml,681,me het ja de tiitsch öppen òü ghört und de hittler ghört lärme
+archimob\archimob_1007.xml,830,die hend den nacher gsait ou wie scheen die hend do hier inne glèèrt schiifaare
+archimob\archimob_1007.xml,960,aso ich me hets ja gsee choo ass fertig gaat
+archimob\archimob_1008.xml,1191,ond d medie wärdid verukt schpile
+archimob\archimob_1008.xml,1476,pensionierig cho be
+archimob\archimob_1008.xml,1507,e son e gueti aadere ha da isch gse won e bi de landis und ghie gse be
+archimob\archimob_1008.xml,1567,das isch so e schtori gse win ich vo chloten usecho be
+archimob\archimob_1008.xml,1696,das i mi dureggsezt ha oder ich han en uftrag chönnen ärledigen will i furchtlos gse be
+archimob\archimob_1008.xml,1702,ich chume ja mit dir cho rede
+archimob\archimob_1044.xml,1200,und so wi s mer längt also verschtoo tue und für das tritt ich also ii he
+archimob\archimob_1044.xml,1619,s hed dänn ghaisse mache si fänschter uuf aber die wo undedraa gsi sind am andere fänschter und so
+archimob\archimob_1044.xml,2927,in däm sinn verwände aggtiv
+archimob\archimob_1048.xml,60,alsoo orientiert er hät wän öppis nüüs chùù isch hät ers glueget verwürggliche
+archimob\archimob_1048.xml,95,und dä händ sich d puure zämetue und händ sich aagfange weeren und und
+archimob\archimob_1048.xml,596,nur uf glaris mǜsen iirugge sovil ich mììch mag erinnere
+archimob\archimob_1048.xml,887,dän uf abe uf e flùgplaz und deet hät er dän mǜse waarte
+archimob\archimob_1053.xml,485,und dernaa het die het me die hiender emorged üissglaa
+archimob\archimob_1053.xml,555,aber das het me de äbe nid so gnöi gmacht drum sind s au immer wider cho luegen
+archimob\archimob_1053.xml,832,aber es het däre sache ggä wo chleei risiko isch aber es het gsait mänge
+archimob\archimob_1053.xml,934,det hättsch chenne ja da hät der grad aaine miesse cho luege wie d härdepfl uisetuesch
+archimob\archimob_1053.xml,1120,aber sind aus aargauer gsi und da isch oi e wachtmaaischter isch de cho luege alig
+archimob\archimob_1053.xml,1241,was waar isch wais i nid aber das hani de gheert verzeue mängisch
+archimob\archimob_1055.xml,161,und dänn han i si mängmol gse brüele will s würkich
+archimob\archimob_1055.xml,481,s i afa trurig wäme waiss im chrieg schtärbed mänsche
+archimob\archimob_1055.xml,576,und dänn hämmer scho afange schtudiere wa he
+archimob\archimob_1055.xml,730,türli hetmer denn ebe zwüschet ine wider und denn wen ich mal wider mit kollege gret han du waisch waffe und so und denn
+archimob\archimob_1055.xml,782,ja mit drüü won i mi no mag erinnere
+archimob\archimob_1055.xml,968,britischi kultur hät si afange fasziniere
+archimob\archimob_1055.xml,1029,de chrieg wärded verlüüre
+archimob\archimob_1063.xml,87,lòss wen du nìd magsch koo
+archimob\archimob_1063.xml,602,ùnd händ dene gleert rüüeffe hop schwiiz hop schwiiz
+archimob\archimob_1063.xml,768,die tüged hipnotisiere ìch waiss es nöd
+archimob\archimob_1063.xml,790,ùnd ìch han aifach ìch ha jò gleert schaffe
+archimob\archimob_1063.xml,793,ìch han aifach gschafft alaigge
+archimob\archimob_1063.xml,916,het den gleert nòòplappere mit vieri het er den aagfange rede
+archimob\archimob_1063.xml,987,ùnd nòchhèr het dèè gleert rede i dem chindergarte dèè bueb dèè hansruedi
+archimob\archimob_1063.xml,1000,händ het dèè wenigschtens gleert rede
+archimob\archimob_1063.xml,1514,einzig der notstand bleibt bestehen
+archimob\archimob_1073.xml,376,ha unnerhöört nätti fründine gleert kenne
+archimob\archimob_1073.xml,961,und ìsch cho verzelle cho sääge es ìsch esoo und esoo
+archimob\archimob_1073.xml,1298,und die si cho no cho loose wie mi schweschter und ììch musiziirt häi und häi äu sunsch wòrschiinlich fröid ghaa überhäupt z choo
+archimob\archimob_1073.xml,1860,ìsch der mönsch esoo das er sich sofoort probiirt iizschtele uf ö̀pis positiifs wììder
+archimob\archimob_1075.xml,175,was händ iir ir händ vilicht d pfaadfinderei nò nìt dernääbe
+archimob\archimob_1075.xml,202,ich main ich mach doo gwǜsse behö̀ö̀rde
+archimob\archimob_1075.xml,237,die winterhilffabzaichen ùnd ales mööglichi händ welen aadraaie
+archimob\archimob_1075.xml,245,relatiif früüe aber ich kha ine nìt saage
+archimob\archimob_1075.xml,257,im tüütschuntericht hämmer gwǜssi passaasche
+archimob\archimob_1075.xml,495,hèts nò khaini modäärni mittel mit radaare ezeteraa gää nìt das hät me äu nìt khönne uf jeedem boschte haa sondern
+archimob\archimob_1075.xml,565,höggschtens imene mondnacht nìd hèt me sii natürch scho gsee ǜǜberfliege nìt
+archimob\archimob_1075.xml,576,mitere flapkhanoone hät müese döt uuffe schiesse
+archimob\archimob_1075.xml,597,do goot das redüi duuren ùnd äu wies susch driigseet nìt
+archimob\archimob_1075.xml,751,diir dönd zält ufschtelle diir dönd choche
+archimob\archimob_1075.xml,796,si sich möged erinnere
+archimob\archimob_1075.xml,862,e bekhante wo äu jǜǜdische flǜchtling gholffe schuelkhameraade
+archimob\archimob_1075.xml,960,schlim sich händ mese zruggzie
+archimob\archimob_1075.xml,1078,den chemii chöne si nìt schtudiere ooni laaborthèètikhait nìt ùnd zwoor vo aafang aa nìt
+archimob\archimob_1075.xml,1195,met hèt soo ùnd so vil vo unsere rasse nìt iineglo
+archimob\archimob_1082_1.xml,26,was hät dä gschaffet äggsgüse
+archimob\archimob_1082_2.xml,194,me händ au echli liechti hirarchii ghaa zum biischpiil hät s ggää näschtfalke
+archimob\archimob_1082_2.xml,490,und dänn händ s deet chöne verschtekt überläbe
+archimob\archimob_1082_3.xml,145,won ich won ich miich mag erinnere
+archimob\archimob_1082_3.xml,148,das isch so zimli ales won i mi mag erinnere
+archimob\archimob_1083_2.xml,380,dänn hät er aagfangen iimarschiere
+archimob\archimob_1083_2.xml,556,modeliere und wider aagfange maale
+archimob\archimob_1087_1.xml,402,da han ich ghöört schüüssen und tue
+archimob\archimob_1087_1.xml,601,also si sind echli im kwartier plibe sootsäge ja
+archimob\archimob_1087_1.xml,803,ja ich ha det gleert rauche
+archimob\archimob_1121.xml,197,si tüene iiseze für iri propagandazwäke
+archimob\archimob_1121.xml,407,laa rägne
+archimob\archimob_1121.xml,518,und dir wüssed wäle nid
+archimob\archimob_1121.xml,540,i i muess säge ii ha nächer non e no ei juud gleert kenne
+archimob\archimob_1121.xml,734,isch de doch echli unerwaartet choo
+archimob\archimob_1121.xml,781,und het üüs gseit buebe
+archimob\archimob_1138.xml,247,d hüener sind s denn cho zelle und d söi
+archimob\archimob_1138.xml,810,dass die landdienschtbueben immer am sunntig au hend chönne cho ässe
+archimob\archimob_1138.xml,824,cho ässe
+archimob\archimob_1142.xml,151,viu aarbeitsloosi ou nìd nu mir hei ou i d schùu müesse nattüürlech aber am midwoch hei si ou ghulffe schuute
+archimob\archimob_1142.xml,869,sache passiiert sägemer wo eersch nächheer ìsch uschoo
+archimob\archimob_1142.xml,1034,aber het gseit het nìd emaau einisch ghööre schiesse
+archimob\archimob_1143.xml,1248,im äinevierzgi das tuen ich miir zuguet halte
+archimob\archimob_1143.xml,1888,tönd ufrüschte tönd oi wappnen dän miir chömed draa
+archimob\archimob_1147.xml,35,go goo uufgabe mache
+archimob\archimob_1147.xml,389,gleert känne
+archimob\archimob_1147.xml,411,das chan ìch ìne nǜmme gnäu säge das ìsch aber vieredriissg glaub ggsii
+archimob\archimob_1147.xml,496,versicherig mǜse sälber zaale ùnd di biligschti versicherig het foif franke koschtet pro
+archimob\archimob_1147.xml,696,bì ineghoket apgfloge
+archimob\archimob_1147.xml,821,ùnd dò ìsch es ziilfernroor vòòre drùffe
+archimob\archimob_1147.xml,918,in im gliiche schtal gschlòòffe gäle si ùnd mitenand tùùrnt ùnd gmacht nìd
+archimob\archimob_1147.xml,1063,mìr süüched dùre
+archimob\archimob_1147.xml,1117,wèn ììch nur öppis mache si chönted es patènt chäuffe vomene laischler
+archimob\archimob_1147.xml,1168,und bi bi bebezee mit dem patent hundertmiljone iikome mache rein neto aso
+archimob\archimob_1147.xml,1316,choo bätte jò
+archimob\archimob_1147.xml,1333,beobachtungsflüge im grenzgebiet durchzuführen
+archimob\archimob_1147.xml,1384,müend schnèl kasètte wèchsle
+archimob\archimob_1147.xml,1447,am bode glège ufere
+archimob\archimob_1147.xml,1615,deet g gfange nèè
+archimob\archimob_1147.xml,1686,ùnd de generaal het daas vernoo ùnd het ali choo lòò
+archimob\archimob_1147.xml,1733,het si ggsait lose sii
+archimob\archimob_1147.xml,1744,ìch gòò schnèl use de miner frau gò säge si müsi nò chli lenger waarte
+archimob\archimob_1147.xml,2188,hèt òis nìd vertrait aazluege
+archimob\archimob_1147.xml,2282,hämmer d welo choo lòò
+archimob\archimob_1147.xml,2690,cha lauffe lòò
+archimob\archimob_1147.xml,2691,daas haisst mer cha d lùft ùf hoochen drùk brìnge erhìze
+archimob\archimob_1147.xml,2841,ha si scho wèrend em chrieg aafòò ufboue nìd
+archimob\archimob_1163.xml,1163,i psuecher hed gsait luege si ez do do hämmer äine wo
+archimob\archimob_1163.xml,1413,nach nach uuri cho sind cho schaffe
+archimob\archimob_1163.xml,2875,hed vo de tütsche hondert miliarde
+archimob\archimob_1170.xml,25,wos e wonig het gha so ìsch es zrügg cho ìsch mii cho hole
+archimob\archimob_1170.xml,542,hets amnen oort use hets amnen oort useglüüchtet si si cho reklamiere det u det gseei mer de use u soo und so
+archimob\archimob_1170.xml,687,da si sis doo choo cho luege cho aaluege mir hei chegelbaan ghaa hei si ame
+archimob\archimob_1188.xml,1435,e warmi malzit cho hole
+archimob\archimob_1189.xml,1202,und dänn isch s halt eso vebröösmelet witerggange
+archimob\archimob_1189.xml,2355,wo mit de iilage sind cho chlööne
+archimob\archimob_1195.xml,94,bi also deet obe ha deet nò de phaater marius karlott gleert känne das ìsch ganz e böimige maa ggsìì
+archimob\archimob_1195.xml,111,tütsche schǜzegräben inne ghoket segid
+archimob\archimob_1195.xml,382,het mer di ganzi nattuur ggsee erwachen im früelig ùnd im summer ùnd im hèrpscht
+archimob\archimob_1195.xml,1076,die seene die seenen erwiitere
+archimob\archimob_1198_1.xml,30,und ha mich den èbe mit em baumschnit aagfange befasse und ha den
+archimob\archimob_1198_1.xml,161,nòmòl aagfange chlòpfen öberaal
+archimob\archimob_1198_1.xml,582,ii tègi fuerwèrche
+archimob\archimob_1198_1.xml,747,nòmòl echli wöt zruggchoo wèg de schwirigkaite vo de
+archimob\archimob_1198_1.xml,1103,den glèrnt iischpuure he
+archimob\archimob_1198_1.xml,1270,falschirmjèger gsee abechoo he
+archimob\archimob_1198_1.xml,1702,und emòl zwee tèèg hèmmer amen òòrt gholffe zögle
+archimob\archimob_1198_1.xml,2153,de wachkomandant choo loo
+archimob\archimob_1198_2.xml,167,zeersch hani mitere handschprüze zwai jòòr da gmacht pumpe vo hand
+archimob\archimob_1198_2.xml,374,choo goo
+archimob\archimob_1198_2.xml,733,baumgèèrte gchaa den hènds au döt obe nò baüm nò aagfange schprüze
+archimob\archimob_1203.xml,876,anschtaut si si döt häre cho luege wien är das macht oder zum bischpüu
+archimob\archimob_1203.xml,951,schprüch si dür d s vouk düreggange i würd ez das ned irgendwie überschpizt säge i bi
+archimob\archimob_1203.xml,1207,auso jo und i chume dört imene subere sãtüüro und aues so schön und när imene dräk ine und när hed si gseit aa und do chunnt wudnerbar der jüngscht
+archimob\archimob_1203.xml,1348,cho schaffe u mir si natüch ou froo gsi
+archimob\archimob_1203.xml,1409,die hei nümme chönne gsangsprobe mache si hei ou gfäut
+archimob\archimob_1203.xml,1524,was gseesch de was was isch passiert säge dir du do isch
+archimob\archimob_1203.xml,1855,baut gseit aachlagen oder ha das müesen akzeptiere schpäter han in nächer ufklärt aso
+archimob\archimob_1203.xml,1959,und me cha dankbar si das mer s tuet ufarbeite
+archimob\archimob_1203.xml,2033,dringends uf em härze händ wo si vilich wetted nooträägen oder soo
+archimob\archimob_1205.xml,103,und z ramse hät aso niemer nüt wele wüsse vo dem nazionalsozialismus do hät alles gschpukt degege
+archimob\archimob_1205.xml,452,cho underschriibe
+archimob\archimob_1205.xml,829,aso de haag dänn s militär isch dänn cho de zaun da cho baue
+archimob\archimob_1207.xml,546,d kontrolle chù mache
+archimob\archimob_1207.xml,1087,ich ha na gläärnet tischtenisle deet obe
+archimob\archimob_1207.xml,1369,das si chènd die andere dass si tönd wiiterschaffe
+archimob\archimob_1207.xml,1530,drum händ si aagfange läuffe sind
+archimob\archimob_1207.xml,1814,di äinte aagfange schnure d musig
+archimob\archimob_1207.xml,1835,händ die chäiben aagfange lache
+archimob\archimob_1207.xml,1836,al händ aagfange lache hei schtäärnechäib noch
+archimob\archimob_1207.xml,2191,jaa wo si händ möse d baan dureläuffe loo i ds ittaljänisch und alles he
+archimob\archimob_1209.xml,173,chan ich ez nid eso guet uuskumft gää
+archimob\archimob_1209.xml,487,und nachher hets ghäisse ez das gaat doch nììd isch verschidenes passiert zwüsche
+archimob\archimob_1209.xml,839,de vatter het doch dène gsäit losid da passiert doch nüüt daa müend nìd angscht haa und die hend de waker zuephakt und mit de ziit si si nume no a dene tège gsii wos kä fläischloos hät selle sii wos genäu gwüsst hend das me daa amne tisch cha zuechesìzen und wos fläisch git
+archimob\archimob_1212.xml,19,iisch durchgibrunge einigermaasse
+archimob\archimob_1212.xml,81,jede monat sind cho zale und de häts de halt däru chunde ggää wa
+archimob\archimob_1212.xml,82,wa de immer wänsch en biz gält heind gchäbe wo sind cho zaale und de s häts däru chunde ggää wa
+archimob\archimob_1212.xml,96,heindsch de halt soffort gleert kènne wie die sin gsii
+archimob\archimob_1212.xml,347,ùnd de hènwer ö gholffe häwwe das bìn ìch gigwoont gsii gcholffe häwwe oder ìm gaarte gschafft oder öü
+archimob\archimob_1212.xml,363,also ìch verschtaa schi uf der einte sitte wil wän schi hie chumend ùnd wier ds dialäkt rede nume wän schi mìt iisch hoochtitsch redend rede wier öü hoochtitsch
+archimob\archimob_1212.xml,405,sind si siich iigschlosse voorchoo
+archimob\archimob_1215_1.xml,382,der leerscht juud juud won i ha gleert kenne
+archimob\archimob_1215_1.xml,564,und i d bougrueben gschmisse zämegschlage
+archimob\archimob_1215_1.xml,833,vo de ganze weschtschwiz si da cho iichouffe
+archimob\archimob_1215_1.xml,844,nach gämf cho iichoufe
+archimob\archimob_1215_1.xml,860,de het me chli d umgäbig gleert kenne
+archimob\archimob_1215_2.xml,277,eine isch vo pümpliz choo eine
+archimob\archimob_1215_2.xml,708,aus rekrut bin i nach döörflinge choo i dene sibe monet
+archimob\archimob_1215_3.xml,20,und da han i ghöört marschiere do vom
+archimob\archimob_1215_3.xml,216,so viu i ma erinnere sii russischi laager im wallis gsii
+archimob\archimob_1224.xml,760,het er gsait jäjäjä
+archimob\archimob_1224.xml,1019,khranggezimmer gsi döt in lieschtl im bett glääge schöön
+archimob\archimob_1224.xml,1035,in zofingen einzurüken na bin ich nach däm zofinge gfaare
+archimob\archimob_1224.xml,1506,denn het er nume no gsait abträtte
+archimob\archimob_1224.xml,1642,het me befüürchtet s git verhaftige
+archimob\archimob_1224.xml,1719,massesändig wo me jo eher tuet ufmache
+archimob\archimob_1224.xml,2417,si isch het uns gleert bätten und so sache
+archimob\archimob_1228.xml,292,vo dä liberale schtaatsverfassigen au filosofisch ufzaigt hät
+archimob\archimob_1228.xml,545,ä ich han mal latin nachhilf unterricht gää das hät au drei franke gää i de schtund
+archimob\archimob_1228.xml,792,bället ob är bisse hät i glaub bisse hät är ned
+archimob\archimob_1228.xml,982,äbe chasch du dich konkret erinnere an zääte mai viärzg
+archimob\archimob_1228.xml,1371,aso mini muetr chunnt usere
+archimob\archimob_1228.xml,2264,chönd ganzi gsellschafte zämäbräche
+archimob\archimob_1228.xml,2362,bi sicher da isch än seer än wichtige bitraag zu dem archiv wo mir do versuäched azlegge
+archimob\archimob_1235.xml,38,aifet won i vierjäärig gsi bi hend s mi wider wöue cho hole
+archimob\archimob_1235.xml,47,mine häd mi wöue cho hole
+archimob\archimob_1235.xml,57,hend s mi wider wöue cho hole isch de grossvatter wider cho
+archimob\archimob_1235.xml,408,wie das ggange isch ass de di froue hend chönne sich einisch cho psueche
+archimob\archimob_1235.xml,449,und cho vechoufe
+archimob\archimob_1235.xml,961,i dere usböudig no gse be
+archimob\archimob_1244_1.xml,169,und das hät mir au drum absoluut widerschproche
+archimob\archimob_1244_1.xml,678,die hät er choo laa und dänn
+archimob\archimob_1244_1.xml,812,unbefrischtet entzoge das isch di
+archimob\archimob_1244_2.xml,156,zum biischpiil wäge de waffeliferige hämmer gschribe waffen für hitler
+archimob\archimob_1244_2.xml,217,schtröizädel bewusst underschribe mit kapeewee
+archimob\archimob_1244_2.xml,569,doo hät miir aso e zitlang hät mir de glaube verlaa
+archimob\archimob_1244_2.xml,767,warschau iignoo hät praag pudapescht wien und so wiiter
+archimob\archimob_1248.xml,532,und denn händs aagfange luäge was isch aigentlich los
+archimob\archimob_1248.xml,930,han ich dänn aagfange schtudiere
+archimob\archimob_1248.xml,1075,än hooch aagseene ma
+archimob\archimob_1248.xml,2310,villicht händ sii ii waiss ned obs no git schportabzaiche hets gää
+archimob\archimob_1248.xml,2381,am änd vom chrieg chan ich iine säge isch d armee so ggsii
+archimob\archimob_1248.xml,2463,soldate wo do im iisaz ggsii sind sich händ müässe schtelle
+archimob\archimob_1248.xml,2687,het är ggsait kadette
+archimob\archimob_1248.xml,2734,und ich han mir dänn ggsait gottfriedschtuz
+archimob\archimob_1255.xml,74,ja da hemmer im winter hemmer drii schtund uuse gha schtund inne wemmer sind cho poschte
+archimob\archimob_1255.xml,133,s nääm si wunder was mir im winter dinne miechet und aber im summert isch nie niemer cho fraage
+archimob\archimob_1255.xml,135,was mer täget mache und im winter het me ja am morge ds vee hirte und am aabet ds vee hirte
+archimob\archimob_1255.xml,460,jaja ja di het bis si bis i ds houch alter isch di no uf ds land isch die no cho schaffe
+archimob\archimob_1259.xml,184,und händ und sind ebä zwe det gschtande vode
+archimob\archimob_1259.xml,832,bi dene bunkere d soldate agschliche äme
+archimob\archimob_1259.xml,977,und heg au am zwaite bring bewegig gweergriff s gweer gheie loo
+archimob\archimob_1259.xml,978,und ooni das er sägi ruue aifach pucke das isch aigentli
+archimob\archimob_1259.xml,1550,isch einä cho und sait ja ja er müs em lütnand und n arzt cho lo nid
+archimob\archimob_1259.xml,2171,tütsch ggsait sekle wiä me sait im dienscht sekle im laufschritt
+archimob\archimob_1261.xml,1014,hin ùnd wider het mer chöne briged chauffe
+archimob\archimob_1261.xml,1578,si sìnd sìch e chli ggeduldet voorchoo
+archimob\archimob_1270.xml,1110,wen äine mutter ir khindläin thuut wiigen
+archimob\archimob_1270.xml,1140,d ängländer ales öis tüged aalüüge
+archimob\archimob_1270.xml,1516,und die händ ine nöd erchlèèrt werum das si gsäit händ si müesed flüchte
+archimob\archimob_1270.xml,1667,das git fläke
+archimob\archimob_1295.xml,616,immer jedi wuche isch än maa cho ässe
+archimob\archimob_1295.xml,1681,dänn het händ sii ghört schüsse und aine
+archimob\archimob_1300.xml,467,do han ich a dene verschidehaite han ich dänn probiert säge mer
+archimob\archimob_1300.xml,1240,und dänn hät är ufhöört rede
+archimob\archimob_1300.xml,1361,ha dörfen ä reed halte
+archimob\archimob_1300.xml,1537,de fall finke erlediget abschriibe
+archimob\archimob_1300.xml,1740,do obe gangen isch han ich rüärend beschribe wi da
+archimob\archimob_1300.xml,2949,und dänn hät är aafange rüäfe ufrüäfe und
+archimob\archimob_1300.xml,3219,schtokend oder überhaupt nöd uskunft gää über das
+archimob\archimob_1300.xml,3281,hät nid emol sin namä ggsait ka
+archimob\archimob_1300.xml,3403,ich ha si niä andersch ghörä rede

@@ -1,0 +1,34 @@
+file,article nr,sentence nr, sentence
+NOAH\NOAH_blick.xml,3,45,Wemes zwöi , drü Mou gmacht het , de hetme ds Gfüeu , me heig e nöii Sproch glehrt läse .
+NOAH\NOAH_blick.xml,4,102,Er sölli doch sini Verwaltig fröge , ob sie nöd au än Spilplatz chäntet iirichte .
+NOAH\NOAH_blick.xml,4,106,Es wär doch lässiger für d Chinde , wenns zäme chäntet spiele .
+NOAH\NOAH_blick.xml,4,158,Uf de Australie-tournee 1977 het e dermasse hysterischi Atmosphäre gherrscht , dass mir öis chum händ chöne bewege .
+NOAH\NOAH_blick.xml,10,1,öisi Chläpf suufed viel meh Moscht als ahgäh Tankä Viil meh als uf äm Prospäkt druffä staht .
+NOAH\NOAH_blogs.xml,2,31,Wenns ufhört huupe denn sind all tot .
+NOAH\NOAH_blogs.xml,2,101,Er isch denn mitme Schruubezieher cho und ich hanem probiert erchläre daser mich nöd uf offner Strass cha abstäche aber mer sind die Wörter nöd in Sinn cho , aber ich mus bemittleidenswert usgseh ha will er het denn doch d' Tüür ighänkt , wahrschindli häts z' vill Züüge gha .
+NOAH\NOAH_blogs.xml,2,162,) nach de Wälder nach de Seä und nachem Schneheheeee und i bi wiit wäg vo Diheime , ide Stadt woni nöd wot siiii ( ich glaub grad sälber nöd dasich das Lied gang go google zum de Text fertigschriibe ) verlore i so viune Lüüt woni ni Ma gseeeh ( nicht wahr !
+NOAH\NOAH_blogs.xml,2,210,isch oberschnusig , ihres Näschtli :) ha fascht afange brüele wo igenden ignorante Mänsch s' Näscht entfernt hät , am letschte Friitig .
+NOAH\NOAH_blogs.xml,2,329,wämmer würed schwümme wäremer wahrschindli schnäller , aber ha ghört das Salzwasser schlächt für d' Haar isch .
+NOAH\NOAH_blogs.xml,2,364,love Aline Bin grad so dankbar dasmer ide Schwiiz jetzt doch mal no gäge Mänschehandel versueched vorzgah .
+NOAH\NOAH_blogs.xml,2,509,chum hend Stift und Papier gseh hends afange umetanze und lache wills sich so gfreut hend .
+NOAH\NOAH_blogs.xml,2,512,wos denn Ziit gsi isch zum heigah isch s' chline Meitli wo immer nebed mir blibe isch weggloffe , churz schtah blibe , dreit sich um und schickt mer es Luftkuessli .
+NOAH\NOAH_blogs.xml,3,77,Grad womer im Wasser gsi sind heds afange regne .
+NOAH\NOAH_blogs.xml,3,147,Han chli probiert surfe , aber es isch mega schwierig .
+NOAH\NOAH_blogs.xml,3,148,Han eigentlich me glernt paddle und mit de Welle und em Surfbrett umgah .
+NOAH\NOAH_blogs.xml,3,162,Oktoberfest isch super , Traditione müend ufrecht erhalte bliebe ... :-) sooo und da gits Föteli , mini Kamera taugt leider nüm so guet .
+NOAH\NOAH_blogs.xml,4,507,vilicht han irgendwie verlore usgseh oder so ..
+NOAH\NOAH_blogs.xml,4,544,sie isch immer mit mir cho tanze ..
+NOAH\NOAH_blogs.xml,4,803,aber ich mue halt wider vo vore afange mit Lüt kenne lere ..
+NOAH\NOAH_blogs.xml,4,1063,und ich ha den halt afo umeflueche ..
+NOAH\NOAH_blogs.xml,4,1070,Me hend den afo rede und sie hend eus Tipps geh wo mer ane söled ( allerdings het eus jede vo dene öpis anders verzelt was eus nur no meh verwirrt het ) .
+NOAH\NOAH_blogs.xml,4,1615,allerdings isch s' Wetter ned so toll gsi und es het schlussendli sogar agfange regne .
+NOAH\NOAH_schobinger.xml,5,31,Da häd is de Regierigsraat Pfischter zitiert und zimli harsch verlangt , er well de Fall gglööst haa .
+NOAH\NOAH_schobinger.xml,6,7,Jede häd en halbe Satz töörffe säge , bis en de Reporter abgchlämt hät .
+NOAH\NOAH_schobinger.xml,7,43,de schwaarz Naadleschträiffenaazuug , di langwiilig Grawatte , di schnuergraad schäitlen i de wiisse Haar , di uufmèrksame blauen Auge – sonen Maa cha doch niemert pschiisse !
+NOAH\NOAH_schobinger.xml,10,18,wo wider epaar Turischte zvil Gält händ la umeschtaa , en Schtriit im ‹ Neegerdöörffli › , en aagschossne Diiler i de Langschtraass .
+NOAH\NOAH_schobinger.xml,13,99,Was häisst käne ?
+NOAH\NOAH_swatch.xml,18,2,Si hed ernöit ihri Fiährigsposition i ihrem Prissegmänt , fir Chronometer wo vu dä COSC ( Offizielle Schweizerische Chronometerkontrolle ) zertifiziärt sind , chönne bestätige .
+NOAH\NOAH_wiki.xml,2,131,vo 1514 bis 1529 het er z Basel gschafft und siini Büecher vom Johann Froben lo drucke .
+NOAH\NOAH_wiki.xml,2,161,druffabe hett er z ' Zyri Germanischtik und Romanischtik agfange studiere .
+NOAH\NOAH_wiki.xml,2,183,noo dr Fasnacht findet denn die erschti Lektion statt , e Noochwuggsfeerderig wo mit zahlriiche Mitmach-aggzione fyrs Larve-kaschiere und -moole , fyrs Laternemoole und nadyyrligg fyrs Drummle und Pfyffe duet wärbe .
+NOAH\NOAH_wiki.xml,4,73,aber die enge Kontäkt mite Franke hend scho e günstigi Uswürkig und tuet die Assichte afange verändere , vor alem bi de gschidere Lüt .
