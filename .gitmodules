@@ -1,0 +1,3 @@
+[submodule "SwissGermanUD"]
+	path = SwissGermanUD
+	url = https://github.com/noe-eva/SwissGermanUD
