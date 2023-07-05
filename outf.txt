@@ -119,7 +119,7 @@ NOAH\NOAH_blogs.xml,2,599,Öppis z’ verändere forderet Opfer .
 NOAH\NOAH_blogs.xml,3,188,s' Zimmer putze und ufruume macht kei Freuid ...
 NOAH\NOAH_blogs.xml,4,122,Den sind den au di andere Studente mal cho und han sie kenne glert .
 NOAH\NOAH_blogs.xml,4,226,aber will mers ned hend chöne het sie ' s eus so oft wider mache loh bis es gange isch ..
-NOAH\NOAH_blogs.xml,4,306,und es isch Tradition , dass mer sich am Mardi gras es schwarzes Chrüz uf d' Stirn male lot ..
+? NOAH\NOAH_blogs.xml,4,306,und es isch Tradition , dass mer sich am Mardi gras es schwarzes Chrüz uf d' Stirn male lot ..
 NOAH\NOAH_blogs.xml,4,695,ich han mini Ziit woni ide Schuel mues sii ( was au nie garantiert isch will ich nie weiss wenn das d' Subway wider mal stecke blibt ..
 NOAH\NOAH_blogs.xml,4,742,schaffe interessiert ihn eigentli ned so .
 NOAH\NOAH_blogs.xml,4,821,han scho nach paar Stund e Grupper Brasilianer kenne glert .
@@ -136,9 +136,9 @@ NOAH\NOAH_swatch.xml,3,32,D’ Villeret Calendrier Chinois Traditionnel isch mit
 NOAH\NOAH_swatch.xml,5,4,Sie het Rado de Status vunere innovativa , am Design orientierta Uhramarka , die in ihra Produkt meisterhaft Hightech-Werkstoff z’ nutza verstoht , gsicheret .
 NOAH\NOAH_swatch.xml,7,96,D’ Villeret Calendrier Chinois Traditionnel isch mit fünf Korrektore unter de Aschtöss – e patentierti Blancpain-exklusivität – usgschtattet , während sich d’ Tierkreiszeiche und dye andere Elemänt vom chinesische 60-joor-zyklus über d’ Krone verschtelle löhn .
 NOAH\NOAH_swatch.xml,14,18,En Kollektion welli scho sitt 20 Johr Frauä und Männo , wo Eleganz z’ schätzä wüssed , begaischtoret .
-NOAH\NOAH_swatch.xml,17,17,Si hei uf d’ Zueverlässigkeit vo drizäh vüufäutige Funktione chönne zöue , was die Uhr zum ne « Muss » für nä actiongladene Läbensschtiu macht .
+? NOAH\NOAH_swatch.xml,17,17,Si hei uf d’ Zueverlässigkeit vo drizäh vüufäutige Funktione chönne zöue , was die Uhr zum ne « Muss » für nä actiongladene Läbensschtiu macht .
 NOAH\NOAH_swatch.xml,18,48,Schlussändlich hed d’ ICB-Diräktion 2012 ihri finanzielli Strategie , d’ Betriibschoschtä z’ kontrolliärä fortgsetzt .
-NOAH\NOAH_wiki.xml,1,52,vorhär het me ne leergfeschet ond Füürli lo abeschwömme .
+? NOAH\NOAH_wiki.xml,1,52,vorhär het me ne leergfeschet ond Füürli lo abeschwömme .
 NOAH\NOAH_wiki.xml,3,148,d Besatzig vo de Black Pearl esch jedoch met eme alte Fluech vo de Azteke beleit gseh , wo si zwor onstärblech gmacht , aber im Mondliecht zo Skeltette mutiere loht .
 NOAH\NOAH_wiki.xml,3,174,erst wo de Jack d Mönze met sim Bluet im Will zuerüehrt ond dä sini Mönze met sim Bluet id True keie loht cha de Jack met de einzige Chogle i sinere Pischtole woner för die Glägeheit ufgspart het , de Barbossa erschiesse .
 NOAH\NOAH_wiki.xml,4,95,mir nüd , dir nüd , het er nöd nu sini Lieblingssache mit is Grab lege lo , sondern sis Ross , sin Rosschnecht und de Mundschenk hend grad ono mit is Grab ine müese .
