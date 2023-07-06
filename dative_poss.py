@@ -31,9 +31,9 @@ def poss_parser_dev(sentence):
         plus.add(i+'+')
     cut = cut.union(plus)
     for word in sentence:
-        #if word.get(POS) == 'ART' and word.text not in {'d’', 'das'}:
-        #    progress = 1
-        #    chain[0] = word.text
+        if word.get(POS) == 'ART' and word.text not in {'d’', 'das'}:
+            progress = 1
+            chain[0] = word.text
         if word.get(POS) in {'PDAT', 'PIAT'}:
             progress = 1
             chain[0] = word.text
