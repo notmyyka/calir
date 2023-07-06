@@ -31,9 +31,17 @@ def poss_parser_dev(sentence):
         plus.add(i+'+')
     cut = cut.union(plus)
     for word in sentence:
-        if word.get(POS) == 'ART' and word.text not in {'d’', 'das'}:
+        #if word.get(POS) == 'ART' and word.text not in {'d’', 'das'}:
+        #    progress = 1
+        #    chain[0] = word.text
+        if word.get(POS) in {'PDAT', 'PIAT'}:
             progress = 1
             chain[0] = word.text
+        # substituting pronouns can replace ART NP
+        if word.get(POS) in {'PDS', 'PIS', 'PWS'}:
+            progress = 2
+            chain[0] = ''
+            chain[1] = word.text
         elif word.get(POS) in {'NN', 'NE'}:
             if progress == 1:
                 progress = 2
@@ -77,6 +85,14 @@ def poss_parser(sentence):
         if word.get(POS) == 'ART' and word.text not in {'d’', 'das'}:
             progress = 1
             chain[0] = word.text
+        if word.get(POS) in {'PDAT', 'PIAT'}:
+            progress = 1
+            chain[0] = word.text
+        # substituting pronouns can replace ART NP
+        if word.get(POS) in {'PDS', 'PIS', 'PWS'}:
+            progress = 2
+            chain[0] = ''
+            chain[1] = word.text
         elif word.get(POS) in {'NN', 'NE'}:
             if progress == 1:
                 progress = 2
@@ -114,7 +130,7 @@ def noah_parser(infile):
 
     for article in document:
         for sentence in article:
-            print(poss_parser(sentence))
+            poss_parser_dev(sentence)
 
 
 if True:
