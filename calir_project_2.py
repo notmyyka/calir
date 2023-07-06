@@ -42,9 +42,8 @@ def archimob_parser(infile, outfile='outf.txt'):
             max_concat = 0
             for word in utterance:
                 # print(word.tag[-1])
-                # if (found_one is False) and word.get('tag') == 'VVFIN':
                 # each verb starts/continues a line of verbs
-                if word.get('tag') in V:
+                if word.get('tag') in VV:
                     verb_counter += 1
                     concat_counter += 1
                     # print(_,word.get('tag'))
@@ -53,7 +52,7 @@ def archimob_parser(infile, outfile='outf.txt'):
                     max_concat = max(concat_counter, max_concat)
                     concat_counter = 0
             else: max_concat = max(concat_counter, max_concat)
-            if max_concat >= 3:
+            if max_concat >= 2:
                 outf.write(f"{infile}, utterance {linenr}, #verbs {verb_counter}, longest chain {max_concat} {' '.join([wrd.text for wrd in utterance if wrd.tag[-1] == 'w'])}\n")
                 COUNT_ARCH += 1
 
@@ -71,9 +70,8 @@ def noah_parser(infile, outfile):
                 max_concat = 0
                 for word in sentence:
                     # print(word.tag[-1])
-                    # if (found_one is False) and word.get('tag') == 'VVFIN':
                     # each verb starts/continues a line of verbs
-                    if word.get('pos') in V:
+                    if word.get('pos') in VV:
                         verb_counter += 1
                         concat_counter += 1
                         # print(_,word.get('pos'))
@@ -82,7 +80,7 @@ def noah_parser(infile, outfile):
                         max_concat = max(concat_counter, max_concat)
                         concat_counter = 0
                 else: max_concat = max(concat_counter, max_concat)
-                if verb_counter >= 2:
+                if max_concat >= 2:
                     outf.write(f"{infile}, article {i}, sentence {j}, #verbs {verb_counter}, longest chain {max_concat} {' '.join([wrd.text for wrd in sentence if wrd.tag[-1] == 'w'])}\n")
                     COUNT_NOAH += 1
 
