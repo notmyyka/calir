@@ -7,13 +7,14 @@ import pathlib
 
 VERB_TAGS1 = {''}
 COUNT_NOAH = 0
+
+
 # COUNT_ARCH = 0
 
 # archimob tags:
 #   W 
 #       verbs   = VMFIN, VVFIN, VAFIN, VVPP, VAPP, VVINF, VMPP, VMINF, VAINF ...
 #       NPs     = NN, PPER, ART NN, ART ADJA NN, CARD ADJA NN,  _
-
 
 # CODE STRUCTURE:
     # 
@@ -75,32 +76,29 @@ def find_reduplication(sentence: ET.Element) -> bool:
     state = (False, None)
     # store custom pattern matching functions for each type of particle (the 'K' explicitly for the Grisons dialect)
     forms={
-        # 'g':['gang', 'gahn', 'gohn', 'gahne', 'gange', 'gahsch', 'gasch', 'geisch', ],
-        # 'g': lambda x: re.search(r'''[Gg]
-        #                     (?:[ao](?:nge?|hne?|h)?
-        #                         |(?:öi?|ei|ienged?|öng|önd|iech[ie]?d?|äng[ei]d?|[öä]chi|))''', x),
         'g': lambda x: re.search(r'''[Gg](?:[ao](?:nge?|hne?|h|h?t)|(?:ei|ienged?|öng|önd|iech[ie]?d?|äng[ei]d?|[öä]chi|öi?))''', x),
         'c': lambda x: re.search(r'''[Cc]h(?:[uo]nn?(?:t|sch|d)|ume?|ömen?[dt]?|ond|ieme?|ämi?|oh?)''', x),
         'k': lambda x: re.search(r'''[Kk]h?(?:unn?(?:t|sch)|ume?|ömen?d?|oh)''', x),
         'a': lambda x: re.search(r'''[Ff](?:ang|[oa]h?(?:sch|(?:en?)?[td]))''', x),
         'l': lambda x: re.search(r'''[Ll](?:önd|öched(?:aa?|oo?)h?(?:sch|t|d|n))''', x)
     }
-    for i,word in enumerate(sentence):
+    for i, word in enumerate(sentence):
         if word.get('pos') == 'PTKINF':
             # print(word)
             if word.text.lower() in ['go', 'ga', 'goge']:
                 state = ('g',i)
             elif word.text.lower() == 'cho':
-                state = ('c',i)
+                state = ('c', i)
             # just for the grisons, since the later pattern matching is based on the first latter
             elif word.text.lower() in  ['khoh','kho']:
                 state = ('k',i)
             elif word.text.lower() in ['fa', 'fah', 'fo', 'foh', 'afa', 'aafa', 'aafo', 'afo', 'afoo', 'afoh', 'afah', 'aafoh', 'aafah']:
                 state = ('a',i)
             elif word.text.lower() in ['lo', 'loh', 'loo', 'la', 'lah', 'laa']:
-                state = ('l',i)
+                state = ('l', i)
     # return False if we have no Infinitive-Particle at all("PTKINF")
-    if state[0] is False: return False
+    if state[0] is False:
+        return False
     else:
         for i,word in enumerate(sentence):
             # skip the previously found token (PTKINF)
@@ -113,9 +111,6 @@ def find_reduplication(sentence: ET.Element) -> bool:
                 if forms[state[0]](word.text) != None:
                     print(forms[state[0]](word.text).group(0))
                     return True
-            # elif (i < state[1] and word.text.startswith(state[0]) and word.get('pos')=='VVFIN'):
-            #     if forms[state[0]](word.text) != None:
-            #         return True
             # or
             # - the word occurs AFTER the infinite particle, starts with the same letter and is a a PARTICIPLE
             elif (i < state[1] and word.text.startswith(state[0]) and word.get('pos')=='VVPP'):
@@ -135,14 +130,16 @@ def find_reduplication(sentence: ET.Element) -> bool:
                     return True
     return False
 
+
 def find_csd(sentence: ET.Element) -> bool:
     # initial state: we haven't found a full-verb yet
     found_one = False
     for word in sentence:
-        if (found_one is False) and (word.get('pos') == 'VVFIN' or word.get('pos') == 'VVPP'):
+        if (found_one is False) and (re.search("^VV", word.get('pos')) is not None):
             found_one = True
             # print(_,word.get('tag'))
             continue
+        # For a crossed dependency to occur, we need the dependent verb to follow its head
         elif word.get('pos') == 'VVINF' and (found_one):
             # outf.write(f"{infile},{i},{j},{' '.join([wrd.text for wrd in sentence if wrd.tag[-1] == 'w'])}\n")
             # COUNT_NOAHs += 1
@@ -151,9 +148,79 @@ def find_csd(sentence: ET.Element) -> bool:
             found_one = False
             continue
     return False
-    
+
+
 def find_dat_possessive(sentence: ET.Element) -> bool:
-    pass
+    POS = 'pos'
+
+    # as we find more and more parts of the pattern ART.DAT Noun POSS Noun, we raise our 'progress bar':
+    # progress = 0 means we have no continuous candidate to match our pattern
+    # progress = 1 means we've found an article that could be dative
+    # progress = 2 means we have an article followed by a noun (may be intercepted by adjectives)
+    # progress = 3 means we've found the first three elements: we have a match if we now find the fourth element
+    progress = 0
+    chain = ['', '', '', '']
+    for word in sentence:
+
+        # every dative article restarts a potential match this matching function includes a few potential mNOM articles
+        if word.get(POS) == 'ART' and re.search("(m$|[eia]m)|(de$|er|dr$)", word.text) is not None:
+            progress = 1
+            chain[0] = word.text
+        # attributing pronouns can stand in for the article
+        if word.get(POS) in {'PDAT', 'PIAT'}:
+            progress = 1
+            chain[0] = word.text
+        # substituting pronouns can replace ART NP
+        if word.get(POS) in {'PDS', 'PIS', 'PWS'}:
+            progress = 2
+            chain[0] = ''
+            chain[1] = word.text
+        elif word.get(POS) in {'NN', 'NE'}:
+            # If we have a preceding article, it means we have progressed further
+            if progress == 1:
+                progress = 2
+                chain[1] = word.text
+            # multi-part names (and compounds) can be smushed together.
+            if progress == 2:
+                pass
+            # once we have the first three elements, a noun right after means we've succeeded
+            if progress == 3:
+                progress = 0
+                chain[3] = word.text
+                # our chain variable can be used to print out the found pattern for ease of correction:
+                # print(' '.join([x for x in chain]))
+                return True
+        elif word.get(POS) == 'PPOSAT':
+            if progress == 2:
+                # This condition checks if the gender of the article and the possessive pronoun match up:
+                # The first part considers masc/neut and the second considers fem/plur
+                if (re.search("(m$|[eia]m)", chain[0]) != None and re.search("^s[iy]", word.text) is not None)\
+                        or (re.search("(de$|er|dr$)", chain[0]) is not None and re.search("^[ie]h?r", word.text) is not None):
+                    progress = 3
+                    chain[2] = word.text
+                else:
+                    progress = 0
+                    chain = ['', '', '', '']
+        # substitutive possessives can replace POSS Noun in our pattern
+        elif word.get(POS) == 'PPOSS':
+            if progress == 2:
+                # They still have to agree in gender with the article
+                if (re.search("(m$|[eia]m)", chain[0]) != None and re.search("^s[iy]", word.text) is not None) \
+                        or (re.search("(de$|er|dr$)", chain[0]) is not None and re.search("^[ie]h?r", word.text) is not None):
+                    progress = 0
+                    chain[2] = word.text
+                    # print(' '.join([x for x in chain]))
+                else:
+                    progress = 0
+                    chain = ['', '', '', '']
+        # adjectives can go in the following positions: ART (ADJ) Noun POSS (ADJ) Noun
+        elif word.get(POS) in {'ADJA'}:
+            pass
+        # punctuation, verbs, adpositions and adverbs quite certainly break our pattern
+        elif re.search("\$|^V|^AP|^KO|ADJD|ADV", word.get(POS)) is not None:
+            progress = 0
+            chain = ['', '', '', '']
+    return False
 
 
 
@@ -162,7 +229,7 @@ def parse(infile:str) -> tuple[str, dict[int,tuple[dict,dict[ET.Element,list]]]]
     """primarily built for xml files in the format of the NOAH-corpus"""
     print('parsing ', infile, '...')
     tree = ET.parse(infile)
-    document =tree.getroot()
+    document = tree.getroot()
     # hierarchy of the xml document:
     #   document > article > sentence (s) > word (w)
     filename = infile[infile.find('/')+1:-4]
@@ -174,9 +241,9 @@ def parse(infile:str) -> tuple[str, dict[int,tuple[dict,dict[ET.Element,list]]]]
         all_sentences ={}
         for j,sentence in enumerate(article,0):
             # check for each feature whether it is contained or not
-            results = {'datposs':find_dat_possessive(sentence), 
-                        'csd': find_csd(sentence), 
-                        'reduplication': find_reduplication(sentence)}
+            results = {'datposs': find_dat_possessive(sentence),
+                       'csd': find_csd(sentence),
+                       'reduplication': find_reduplication(sentence)}
             # only save current sentence if it has one (or multiple) of the features we want to extract:
             if contains_true(results.values()):
                 all_sentences[sentence] = [key for key,value in results.items() if value]
@@ -184,10 +251,6 @@ def parse(infile:str) -> tuple[str, dict[int,tuple[dict,dict[ET.Element,list]]]]
         # - the attributes of the article (we don't want/need the entire article saved)
         # - the dictionary of sentences { <Element 's' at 0x... : [phenomenon_x, ...] }
         all_articles[i] = (article.attrib, all_sentences)
-                
-                # TODO delete later, checking only
-                # print(saved_sentences)
-
     return filename, all_articles
 
 
@@ -272,32 +335,27 @@ def main(infiles: list[str], outfile: str):
     tree = ET.ElementTree(document)
     ET.indent(tree, space="  ", level=1)
     tree.write(outfile,encoding='utf-8', xml_declaration=True, short_empty_elements=False)
-                # s = ET.SubElement(article, 's',)
-    # with open(outfile, 'a', encoding='utf-8') as outf:
-        
-    #     for filename, file_sentences in all_files.items():
-    #         for sentence, phenomena_list in file_sentences.items():
-    #             pass
+
 
 
 def test_individual_functions(infile):
     tree = ET.parse(infile)
-    document =tree.getroot()
+    document = tree.getroot()
     # iterate through all articles of the document
-    for i,article in enumerate(document,0):
+    for i, article in enumerate(document, 0):
         # iterate through all sentences in the article
-        for j,sentence in enumerate(article,0):
-
-# INSERT FUNCTION TO BE TESTED HERE:
-            if find_reduplication(sentence):
+        for j, sentence in enumerate(article, 0):
+            pass
+            # INSERT FUNCTION TO BE TESTED HERE:
+            # if find_reduplication(sentence):
             # if find_csd(sentence):
             # if find_dat_possessive(sentence):
                 # print('found_one')
-                print(' '.join([wrd.text for wrd in sentence if wrd.tag[-1] == 'w']))
-    pass    
+                # print(' '.join([wrd.text for wrd in sentence if wrd.tag[-1] == 'w']))
+    pass
 
 
-if __name__ =='__main__':
+if __name__ == '__main__':
     pass
     # test_individual_functions('NOAH/NOAH_blogs.xml')
 
@@ -314,5 +372,3 @@ if __name__ =='__main__':
     # for file in noah_dir:
     #     if file.endswith('.xml'):
     #         parse(f'NOAH/{file}', 'outf-NOAH.txt')
-
-
