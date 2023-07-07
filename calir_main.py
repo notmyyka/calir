@@ -232,6 +232,7 @@ def parse(infile:str) -> tuple[str, dict[int,tuple[dict,dict[ET.Element,list]]]]
                        'reduplication': find_reduplication(sentence)}
             # only save current sentence if it has one (or multiple) of the features we want to extract:
             if contains_true(results.values()):
+                print(results, [key for key,value in results.items() if value])
                 all_sentences[sentence] = [key for key,value in results.items() if value]
         # in the articles-dictionary (where each item is an article), save a tuple containing 
         # - the attributes of the article (we don't want/need the entire article saved)
@@ -251,9 +252,11 @@ def check_sentence_2ndpass(sentence: ET.Element, phenomena_list: list[str]) -> l
 
     # go through all phenomena that need a manual check... (i.e. only cross-serial dependencies, currently)
     for phenomenon in check_for_these:
-        # skip if the phenomenon is not assumed to be present in the current sentence anyways
+        
+        # skip the sentence if the phenomenon is (assumedly) present in the current sentence anyways
         if phenomenon not in phenomena_list:
             continue
+
         # remove the entry for e.g. 'csd' from the updated list
         updated_phenomena_list.remove(phenomenon)
         prompt=f'Does the following sentence contain any {mapping[phenomenon]}? \n\n\"{" ".join([wrd.text for wrd in sentence if wrd.tag[-1] == "w"])}\"\nAnswer: [y/n]'
@@ -296,7 +299,7 @@ def main(infiles: list[str], outfile: str):
     Writes all sentences that contain at least one of the phenomena we are looking for to the output file."""
     
     # empty the output file, just in case
-    clear_txtfile(outfile)
+    # clear_txtfile(outfile)
 
     mapping = {'datposs':'Dative + Possessive Pronoun Constructions', 
                 'csd': 'Cross-Serial Dependencies', 
