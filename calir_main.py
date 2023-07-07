@@ -263,6 +263,7 @@ def main(infiles: list[str], outfile: str):
         m_file = f'{idx_file}'
         file = ET.SubElement(document, 'file', attrib={'n': str(idx_file), 'title': filename})
         for idx_art, (article_attributes, sentences) in articles.items():
+            if sentences == {}: continue
             article = ET.SubElement(file, 'article', attrib=article_attributes)
             for sentence,phenomena in sentences.items():
                 for phen in phenomena: 
@@ -301,8 +302,8 @@ if __name__ =='__main__':
     # test_individual_functions('NOAH/NOAH_blogs.xml')
 
     outfile = 'output-main.xml'
-    # inputfiles = ['NOAH/NOAH_blogs.xml','NOAH/NOAH_blick.xml','NOAH/NOAH_schobinger.xml','NOAH/NOAH_wiki.xml','NOAH/NOAH_swatch.xml']
-    inputfiles = ['NOAH/NOAH_blogs.xml']
+    inputfiles = ['NOAH/NOAH_blogs.xml','NOAH/NOAH_blick.xml','NOAH/NOAH_schobinger.xml','NOAH/NOAH_wiki.xml','NOAH/NOAH_swatch.xml']
+    # inputfiles = ['NOAH/NOAH_blogs.xml']
     main(inputfiles, outfile)
 
     
