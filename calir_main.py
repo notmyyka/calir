@@ -113,25 +113,6 @@ def find_csd(sentence: ET.Element) -> bool:
 
 def find_dat_possessive(sentence: ET.Element) -> bool:
     POS = 'pos'
-    # defining these broader categories in order to cut down on if-statements
-    VV = {'VVFIN', 'VVIMP', 'VVINF', 'VVIZU', 'VVPP'}
-    VA = {'VAFIN', 'VAIMP', 'VAINF', 'VAPP'}
-    VM = {'VMFIN', 'VMINF', 'VMPP'}
-    V = VV.union(VA.union(VM))
-
-    ADP = {'APPR', 'APPRART', 'APPO', 'APZR'}
-
-    KO = {'KOUI', 'KOUS', 'KON', 'KOKOM'}
-
-    ADV = {'ADJD', 'ADB'}
-
-    other = {'$(', '$,'}
-
-    cut = other.union(ADP).union(V).union(KO).union(ADV)
-    plus = {''}
-    for i in cut:
-        plus.add(i + '+')
-    cut = cut.union(plus)
 
     # as we find more and more parts of the pattern ART.DAT Noun POSS Noun, we raise our 'progress bar':
     # progress = 0 means we have no continuous candidate to match our pattern
@@ -142,8 +123,8 @@ def find_dat_possessive(sentence: ET.Element) -> bool:
     chain = ['', '', '', '']
     for word in sentence:
 
-        # every dative article restarts a potential match. The list of articles that cannot be datives is not conclusive
-        if word.get(POS) == 'ART' and word.text not in {'d’', 'das'}:
+        # every dative article restarts a potential match this matching function includes a few potential mNOM articles
+        if word.get(POS) == 'ART' and re.search("(m$|[eia]m)|(de$|er|dr$)", word.text) is not None:
             progress = 1
             chain[0] = word.text
         # attributing pronouns can stand in for the article
@@ -167,18 +148,27 @@ def find_dat_possessive(sentence: ET.Element) -> bool:
             if progress == 3:
                 progress = 0
                 chain[3] = word.text
+                # our chain variable can be used to print out the found pattern for ease of correction:
+                # print(' '.join([x for x in chain]))
                 return True
         elif word.get(POS) == 'PPOSAT':
             if progress == 2:
-                if 'm' in chain[0] or 'r' in word.text:
+                # This condition checks if the gender of the article and the possessive pronoun match up:
+                # The first part considers masc/neut and the second considers fem/plur
+                if (re.search("(m$|[eia]m)", chain[0]) != None and re.search("^s[iy]", word.text) is not None)\
+                        or (re.search("(de$|er|dr$)", chain[0]) is not None and re.search("^[ie]h?r", word.text) is not None):
                     progress = 3
                     chain[2] = word.text
+                else:
+                    progress = 0
+                    chain = ['', '', '', '']
         # adjectives can go in the following positions: ART (ADJ) Noun POSS (ADJ) Noun
         elif word.get(POS) in {'ADJA'}:
             pass
-        #punctuation, verbs, adpositions and adverbs quite certainly break our pattern
-        elif word.get(POS) in cut:
+        # punctuation, verbs, adpositions and adverbs quite certainly break our pattern
+        elif re.search("\$|^V|^AP|^KO|ADJD|ADV", word.get(POS)) is not None:
             progress = 0
+            chain = ['', '', '', '']
     return False
 
 
