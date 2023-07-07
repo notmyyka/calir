@@ -97,10 +97,11 @@ def find_csd(sentence: ET.Element) -> bool:
     # initial state: we haven't found a full-verb yet
     found_one = False
     for word in sentence:
-        if (found_one is False) and (word.get('pos') == 'VVFIN' or word.get('pos') == 'VVPP'):
+        if (found_one is False) and (re.search("^VV", word.get('pos')) is not None):
             found_one = True
             # print(_,word.get('tag'))
             continue
+        # For a crossed dependency to occur, we need the dependent verb to follow its head
         elif word.get('pos') == 'VVINF' and (found_one):
             # outf.write(f"{infile},{i},{j},{' '.join([wrd.text for wrd in sentence if wrd.tag[-1] == 'w'])}\n")
             # COUNT_NOAHs += 1
@@ -159,6 +160,18 @@ def find_dat_possessive(sentence: ET.Element) -> bool:
                         or (re.search("(de$|er|dr$)", chain[0]) is not None and re.search("^[ie]h?r", word.text) is not None):
                     progress = 3
                     chain[2] = word.text
+                else:
+                    progress = 0
+                    chain = ['', '', '', '']
+        # substitutive possessives can replace POSS Noun in our pattern
+        elif word.get(POS) == 'PPOSS':
+            if progress == 2:
+                # They still have to agree in gender with the article
+                if (re.search("(m$|[eia]m)", chain[0]) != None and re.search("^s[iy]", word.text) is not None) \
+                        or (re.search("(de$|er|dr$)", chain[0]) is not None and re.search("^[ie]h?r", word.text) is not None):
+                    progress = 0
+                    chain[2] = word.text
+                    # print(' '.join([x for x in chain]))
                 else:
                     progress = 0
                     chain = ['', '', '', '']
