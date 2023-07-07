@@ -5,16 +5,6 @@ import re,click
 import xml.etree.ElementTree as ET
 import pathlib
 
-VERB_TAGS1 = {''}
-COUNT_NOAH = 0
-
-
-# COUNT_ARCH = 0
-
-# archimob tags:
-#   W 
-#       verbs   = VMFIN, VVFIN, VAFIN, VVPP, VAPP, VVINF, VMPP, VMINF, VAINF ...
-#       NPs     = NN, PPER, ART NN, ART ADJA NN, CARD ADJA NN,  _
 
 # CODE STRUCTURE:
     # 
@@ -107,26 +97,22 @@ def find_reduplication(sentence: ET.Element) -> bool:
 
             # - the word occurs BEFORE the infinite particle, starts with the same letter and is a a finite verb
             if (i < state[1] and word.text.startswith(state[0]) and word.get('pos')=='VVFIN'):
-                # if state[0]=='g' and word.text.startswith('g'):
                 if forms[state[0]](word.text) != None:
-                    print(forms[state[0]](word.text).group(0))
+                    # print(forms[state[0]](word.text).group(0))
                     return True
             # or
             # - the word occurs AFTER the infinite particle, starts with the same letter and is a a PARTICIPLE
             elif (i < state[1] and word.text.startswith(state[0]) and word.get('pos')=='VVPP'):
                 if forms[state[0]](word.text) != None:
-                    print(forms[state[0]](word.text).group(0))
                     return True
             # or
             # - a very variable combination of 'cho' and 'go'
             elif ((state[0] in ['k', 'c']) and word.text.startswith('g') and (word.get('pos') in ['VVFIN','PTKINF','VVPP'])):
                 if forms['g'](word.text) != None:
-                    print(forms['g'](word.text).group(0))
                     return True
             # - a very variable combination of 'g' and 'cho'
             elif ((state[0]=='g') and (word.text[0] in ['k','c']) and (word.get('pos') in ['VVFIN','PTKINF','VVPP'])):
                 if forms['k'](word.text) != None:
-                    print(forms['k'](word.text).group(0))
                     return True
     return False
 
