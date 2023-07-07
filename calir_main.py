@@ -288,7 +288,8 @@ def second_pass(all_files: dict[str , dict[int,tuple[dict,dict[ET.Element,list]]
             for sentence, phenomena_list in sentences.items():
                 # retrieve the list with the wrongly found phenomena removed
                 updated_phenomena_list = check_sentence_2ndpass(sentence, phenomena_list)
-                passed_sentences[sentence] = updated_phenomena_list
+                if updated_phenomena_list != []:
+                    passed_sentences[sentence] = updated_phenomena_list
             passed_articles[index] = (art_attrib, passed_sentences)
         passed_allfiles[filename] = passed_articles
     return passed_allfiles
